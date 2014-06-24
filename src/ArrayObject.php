@@ -9,9 +9,9 @@ namespace PetrGrishin\ArrayObject;
 interface ArrayObject {
 
     /**
-     * @param array $data
+     * @param array|ArrayObject $data
      */
-    public function setArray(array $data);
+    public function setArray($data);
 
     /**
      * @return array
