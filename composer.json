@@ -1,0 +1,25 @@
+{
+    "name": "petrgrishin/array-object",
+    "description": "Interface array object",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/petrgrishin/array-object.git"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Petr Grishin",
+            "email": "petr.grishin@grishini.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PetrGrishin\\ArrayObject\\": "src/"
+        }
+    }
+}
